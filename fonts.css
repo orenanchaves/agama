@@ -1,0 +1,9 @@
+@font-face	{
+    font-family: 'Semplicita Modern';
+    src: 
+        url('../font/Semplicita Modern Light.otf') format('opentype'),
+        url('../font/Semplicita Modern Book.otf') format('opentype'), 
+        url('../font/Semplicita Modern Bold.otf') format('opentype'); 
+            font-weight: normal; 
+            font-style: normal;
+    }
