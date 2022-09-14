@@ -1,9 +1,20 @@
 @font-face	{
-    font-family: 'Semplicita Modern';
-    src: 
-        url('../font/Semplicita Modern Light.otf') format('opentype'),
-        url('../font/Semplicita Modern Book.otf') format('opentype'), 
-        url('../font/Semplicita Modern Bold.otf') format('opentype'); 
-            font-weight: normal; 
-            font-style: normal;
+        font-family: 'Semplicita Modern';
+        src: url('./font/Semplicita Modern Light.otf') format('opentype'); 
+        font-weight: normal; 
+        font-style: light;
     }
+
+@font-face	{
+        font-family: 'Semplicita Modern';
+        src: url('./font/Semplicita Modern Book.otf') format('opentype'); 
+        font-weight: 400; 
+        font-style: normal;
+            }
+
+@font-face	{
+        font-family: 'Semplicita Modern';
+        src: url('./font/Semplicita Modern Bold.otf') format('opentype'); 
+        font-weight: bold; 
+        font-style: bold;
+            }
