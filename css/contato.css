@@ -1,0 +1,184 @@
+body{
+        background: #303030;
+    }
+
+header{
+        padding: 30px 0;
+        width: auto;
+    }
+
+.agama-logo{
+        padding: 30px 0px;
+    }
+
+.arrow-return{
+        display: inline-block;
+}
+
+.arrow-return a:hover{
+        fill:#c78c19;
+    }
+
+.box{
+        display: inline-block;
+        position: relative;
+        width: 900px;
+        margin: 0 0 0 100px;
+    }
+
+h2{
+    font-family: 'Semplicita Modern', Helvetica, serif;
+    font-weight: bold;
+    color: #ffffff;
+    font-size: 50px;
+    padding-top: 60px;
+    padding-bottom: 60px;
+    margin: 0 2.5%;
+    line-height: 50px;
+}
+
+p{
+        font-family: 'Semplicita Modern', Helvetica, serif;
+        font-weight: light;
+        color: #ffffff;
+        font-size: 30px;
+        margin: 0 2.5%;
+        line-height: 40px;
+    }	
+
+main{
+        text-align: left;
+        width: auto;
+        margin: 0 0 0 100px;
+    }
+
+form{
+        margin: 50px 0;
+    }
+
+form label{
+        font-family: 'Semplicita Modern', Helvetica, serif;
+        font-weight: light;
+        font-size: 20px;
+        color: #ffffff;
+            padding: 50 30px;
+            line-height: 40px;
+    }
+
+input {
+        text-align: left;
+        padding: 5px 50px 5px 20px;
+    }    
+
+.contact {
+        margin-top: 20px;
+    }
+
+    .input-padrao {
+        font-family: 'Semplicita Modern', Helvetica, serif;
+        font-family: 'Semplicita Modern', Helvetica, serif;
+        font-weight: light;
+        text-align: left;
+            display: block;
+            font-size: 20px;
+            margin: 0 0 20px;
+    }
+
+.input-padrao-01{
+        font-family: 'Semplicita Modern', Helvetica, serif;
+        font-family: 'Semplicita Modern', Helvetica, serif;
+        font-weight: light;
+        text-align: left;
+            display: inline;
+            font-size: 20px;
+            margin: 0 0 20px 0px;
+    }
+
+.input-padrao-02{
+        font-family: 'Semplicita Modern', Helvetica, serif;
+        font-family: 'Semplicita Modern', Helvetica, serif;
+        font-weight: light;
+        text-align: left;
+            display: inline;
+            font-size: 20px;
+            margin: 0 0 20px 20px;
+    }
+
+.input-padrao-03{
+    font-family: 'Semplicita Modern', Helvetica, serif;
+    font-family: 'Semplicita Modern', Helvetica, serif;
+    font-weight: light;
+    text-align: left;
+        display: block;
+        font-size: 20px;
+        margin: 0 0 20px 0px;
+        padding: 0 0 18.52px 372px;
+    }
+
+.input-padrao-04{
+        font-family: 'Semplicita Modern', Helvetica, serif;
+        font-family: 'Semplicita Modern', Helvetica, serif;
+        font-weight: light;
+        text-align: left;
+            display: block;
+            font-size: 20px;
+            margin: 0 0 20px 0px;
+            padding: 0 0 7px 372px;
+            width: 50%;
+        }
+
+#checks{
+    display: inline-block;
+    } 
+
+.enviar{
+        font-family: 'Semplicita Modern', Helvetica, serif;
+        font-weight: bold;
+        text-align: left;
+        font-size: 15px;
+            margin-top: 20px;
+            width: 10%;
+            padding: 15px 15px 15px 15px;
+            background: #CC0866;
+            transition: 1s;
+            color: #ffffff;
+                border: none;
+                    
+    }
+
+.enviar:hover{
+        font-family: 'Semplicita Modern', Helvetica, serif;
+        font-weight: light;
+        text-align: left;
+        font-size: 15px;
+        border: bold;
+        background: linear-gradient(to right, #CC0866, #3A35EB);
+        background-size: 300% 100%;
+            animation-name: gradient-animation;
+            animation-duration: 1s;
+            animation-timing-function: ease-in-out;
+            animation-direction: alternate;
+            animation-iteration-count: infinite;
+}
+
+@keyframes gradient-animation{
+    0%{
+        background-position-x: 0%;
+    }
+    100%{
+        background-position-x: 100%;
+    }
+    }
+
+.enviar:active{
+    font-family: 'Semplicita Modern', Helvetica, serif;
+        font-weight: bold;
+        text-align: left;
+        font-size: 15px;
+            margin-top: 20px;
+            width: 10%;
+            padding: 15px 15px 15px 15px;
+            background: black;
+            color: #ffffff;
+                border: none;
+        }
