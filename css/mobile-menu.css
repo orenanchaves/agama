@@ -1,0 +1,33 @@
+header{
+    align-items: center;
+    padding: px 0;
+    width: auto;
+    }
+
+.box {
+        position: relative;
+        width: 940px;
+        margin: 0 auto;
+        top: 50px;
+        padding: 60px 10px;
+    } 
+
+.agama-logo{
+        align-items: center;
+    }    
+
+nav {
+        position:absolute;
+        top:90px;
+        right: 0;
+      }
+
+.arrow-return:hover{
+    transition: 1s;
+    fill: #CC0866
+    }
+
+.arrow-return:active{
+    transition: 1s;
+    color:#3A35EB;
+    }
