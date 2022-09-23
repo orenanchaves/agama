@@ -222,16 +222,9 @@ p{
         }
     
 
-@media screen and (max-width: 480px){
-        
-        .nome{
-            font-family: 'Semplicita Modern', Helvetica, serif;
-            font-weight: light;
-            text-align: left;
-            font-size: 20px;
-            display: inline-block;
-            width: 100%;
-            padding: 10em 10em;
-            margin-right: 10px;
+@media screen and (max-width: 500px){
+        .box-02{
+            width: 80%;
         }
+
     }
