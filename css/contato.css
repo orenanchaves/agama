@@ -1,19 +1,30 @@
 body{
         width: 100%;
-        height: 100vh;
         justify-content: center;
         align-items: center;
         background: #303030;
     }
 
-    .agama-logo{
-        align-items: center;
-    }    
+header{
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    background: #303030;
+}
+
+.nav02{
+    position: absolute;
+    right: 25%;
+    bottom: 90;
+}
+
+.agama-logo{
+    align: center;
+}    
 
 nav {
-        position:absolute;
-        top:90px;
-        right: 0;
+    position: absolute;
+    top: 90px;
       }
 
 .arrow-return:hover{
@@ -27,14 +38,12 @@ nav {
     }    
 
 .box{
-    position: relative;
-    float: center;
     width: 50%;
-    height: 10em;
+    height: 1.5em;
     display: flex;
     margin: 0 auto;
     top: 50px;
-    padding: 60px 10px;
+    padding: 100px 10px;
     }
 
 h2{
@@ -42,8 +51,6 @@ h2{
     font-weight: bold;
     color: #ffffff;
     font-size: 50px;
-    padding-top: 60px;
-    padding-bottom: 60px;
     margin: 0 2.5%;
     line-height: 50px;
 }
@@ -72,6 +79,7 @@ p{
         width: 50%;
         margin: 0 auto;
         align-items: center;
+        padding: 0 3% ;
     }
     
     .nome{
@@ -80,7 +88,7 @@ p{
         text-align: left;
         font-size: 20px;
         display: inline-block;
-        width: 25%;
+        width: 27%;
         padding: 0.5em 0.5em;
         margin-right: 10px;
     }
@@ -91,9 +99,9 @@ p{
         text-align: left;
         font-size: 20px;
         display: inline-block;
-        width: 25%;
+        width: 27%;
         padding: 0.5em 0.5em;
-        margin-bottom: 1em;
+        margin-bottom: 10px;
         margin-right: 25%;
     }
     
@@ -105,7 +113,7 @@ p{
         margin-right: 10px;
         display: inline-block;
         padding: 0.5em 0.5em;
-        width: 25%;
+        width: 27%;
     }
     
     footer{
@@ -119,8 +127,8 @@ p{
         font-size: 20px;
         display: inline-block;
         padding: 0.5em 0.5em;
-        width: 25%;
-        margin-bottom: 1em;
+        width: 27%;
+        margin-bottom: 10px;
     }
     
     .assunto{
@@ -132,7 +140,7 @@ p{
         display: block;
         padding: 0.5em 0.5em;
         width: 80%;
-        margin-bottom: 1em;
+        margin-bottom: 10px;
     }
     
     .mensagem{
@@ -142,8 +150,8 @@ p{
         font-size: 20px;
         display: block;
         padding: 0.5em 0.5em;
-        width: 100%;
-        margin-bottom: 1em;
+        width: 95%;
+        margin-bottom: 20px;
     }
     
     .contact{
@@ -152,12 +160,12 @@ p{
         text-align: left;
         display: inline;
         font-size: 20px;
-        margin-bottom: 1.5em;
+        margin-bottom: 10px;
             }
     
     #checks{
         margin-top: 1.5em;
-        margin-bottom: 0.5em;
+        margin-bottom: 15px;
     }
     
     .receber{
@@ -166,7 +174,7 @@ p{
         text-align: left;
         display: block;
         font-size: 20px;
-        margin-bottom: 1.5em;
+        margin-bottom: 20px;
                 }
     
     .enviar{
@@ -174,7 +182,7 @@ p{
         font-weight: bold;
         text-align: left;
         font-size: 15px;
-        width: 25%;
+        width: 27%;
         padding: 15px 15px 15px 15px;
         background: #CC0866;
         transition: 1s;
@@ -188,7 +196,7 @@ p{
         font-weight: light;
         text-align: left;
         font-size: 15px;
-        width: 25%;
+        width: 27%;
         border: bold;
         background: linear-gradient(to right, #CC0866, #3A35EB);
         background-size: 300% 100%;
@@ -222,9 +230,90 @@ p{
         }
     
 
-@media screen and (max-width: 500px){
+@media (max-width: 480px){
+    @media (max-width: 480px){
+        body{
+            width: 100%;
+        }
+        .box{
+        width: 80%;
+        }
         .box-02{
             width: 80%;
+            margin: 10px auto;
+            }
+            .nome{
+                width: 80%;
+                margin-top: 0%;
+                margin-bottom: 2%;
+                margin-right: 0%;
+                margin-left: 0%;
+            }
+            .empresa{
+                width: 80%;
+                margin-top: 0%;
+                margin-bottom: 2%;
+                margin-right: 0%;
+                margin-left: 0%;
+            }
+            .email{
+                width: 80%;
+                margin-top: 0%;
+                margin-bottom: 2%;
+                margin-right: 0%;
+                margin-left: 0%;
+            }
+            .celular{
+                width: 80%;
+                margin-top: 0%;
+                margin-bottom: 2%;
+                margin-right: 0%;
+                margin-left: 0%;
+            }
+            .mensagem{
+                width: 93%;
+                margin-top: 0%;
+                margin-bottom: 2%;
+                margin-right: 0%;
+                margin-left: 0%;
+            }
+    
+            .enviar{
+                width: 50%;
+                margin-top: 0%;
+                margin-bottom: 2%;
+                margin-right: 0%;
+                margin-left: 0%;
+            }
+            nav{
+                top: 14%;
+                left: 9.5%;
         }
-
-    }
+            .nav02{
+                top: 4%;
+                left: 9.5%;
+            }
+            .contact{
+                width: 100%;
+                margin-top: 0%;
+                margin-bottom: 100%;
+                margin-right: 0%;
+                margin-left: 0%;
+                    }
+            
+            #checks{
+                width: 100%;
+                margin-top: 4%;
+                margin-bottom: 2%;
+                margin-right: 0%;
+                margin-left: 0%;
+            }
+            
+            .receber{
+                width: 100%;
+                margin-top: 0%;
+                margin-bottom: 5%;
+                margin-right: 0%;
+                margin-left: 0%;
+                        }
+            }
