@@ -6,9 +6,7 @@
     <title>Agama | Contato</title>
     <link rel="stylesheet" href="./css/reset.css">
     <link rel="stylesheet" type="text/css" id="applicationStylesheet" href="font.css"/>
-    <link rel="stylesheet" href="./css/mobile-menu.css">
     <link rel="stylesheet" href="./css/contato.css">
-    <link rel="stylesheet" href="./css/display.css">
     <link rel="stylesheet" href="./js/submit.js">
 </head>
 <body>
@@ -27,15 +25,11 @@
                     <path id="Caminho_2879" data-name="Caminho 2879" d="M159.911,144.788,97.6,108.2,49.8,142.169H97.672L122.822,157l-46.1,32.737h99.365l23.878-16.946,31.389,18.41V150.835l-43.79-25.689Zm67.553,8.28V184.38l-27.691-16.253-24.918,17.716H88.968l41.017-29.155-31.273-18.41h-36.7L97.788,112.86,160.1,149.448l27.653-19.642Z" transform="translate(-49.8 -86.401)" fill="#fff"/>
                     <path id="Caminho_2880" data-name="Caminho 2880" d="M430.918,51.6,389.4,81.1l54.574,32L485.3,83.566Zm12.825,56.885L396.564,80.793,431.11,56.26,478.1,83.913Z" transform="translate(-258.608 -51.6)" fill="#fff"/>
                 </g>
-                </g></svg>
-            </h1>
-            </a>
+            </g></svg></h1></a>
             <nav>
-                <ul>
-                    <li><a href="index.html"><svg xmlns="http://www.w3.org/2000/svg" width="91.301" height="57.086" viewBox="0 0 91.301 57.086">
+            <a href="index.html"><svg xmlns="http://www.w3.org/2000/svg" width="91.301" height="57.086" viewBox="0 0 91.301 57.086">
                         <path class="arrow-return" id="details_14" d="M51.137,0H0L40.164,28.543,0,57.086H51.137L91.3,28.543Z" transform="translate(91.301 57.086) rotate(180)" fill="#ffffff"/>
-                    </svg></a></li>
-                </ul>
+            </svg></a>
             </nav>
         </div>
     </header>
@@ -43,17 +37,18 @@
     <main>
         <form id="formulario"
         method="POST" 
-        action="https://script.google.com/macros/s/AKfycbx3L3TOa36A1OPQty6WQek8a3BlQBQ0aAw4RMrSY_hCw8DQY1_j4eH1E7lFbX00y9Ze9A/exec"
-        >
+        action="https://script.google.com/macros/s/AKfycbx3L3TOa36A1OPQty6WQek8a3BlQBQ0aAw4RMrSY_hCw8DQY1_j4eH1E7lFbX00y9Ze9A/exec">
             <fieldset class="box-02">
 
-                <input name="Nome" type="text" id="nomecompleto"  class="primeira-linha" required placeholder="Nome completo"><input name="Empresa" type="text" id="empresa"  class="primeira-linha" required placeholder="Empresa">
+                <input name="Nome" type="text" id="nomecompleto"  class="nome" required placeholder="Nome completo">
+                <input name="Empresa" type="text" id="empresa"  class="empresa" required placeholder="Empresa">
 
-                <input name="E-mail" type="email" id="email"  class="segunda-linha" required placeholder="E-mail"><input name="Celular" type="tel" id="celular"  class="segunda-linha" placeholder="Celular">
+                <input name="E-mail" type="email" id="email"  class="email" required placeholder="E-mail">
+                <input name="Celular" type="tel" id="celular"  class="celular" placeholder="Celular">
 
-                <input name="Assunto" type="text" id="assunto"  class="terceira-linha" required placeholder="Assunto">
+                <input name="Assunto" type="text" id="assunto"  class="assunto" required placeholder="Assunto">
 
-                <textarea name="Mensagem" class="input-padrao-04" cols="30" rows="10" required placeholder="Agora, por favor comente o que nós podemos fazer por você?"></textarea>
+                <textarea name="Mensagem" class="mensagem" cols="30" rows="10" required placeholder="Agora, por favor comente o que nós podemos fazer por você?"></textarea>
 
             </fieldset>
 
@@ -62,16 +57,16 @@
                 <label class="contact">Como prefere o nosso contato?</label>
 
                     <div id="checks">
-                    <label class="input-padrao-05" for="email-radio"><input type="radio" name="contato" valeu="email" id="email-radio">E-mail</label>
+                    <label class="contato" for="email-radio"><input type="radio" name="contato" valeu="email" id="email-radio">E-mail</label>
                     
                     <label for="zap-radio"><input type="radio" name="contato" valeu="zap" id="zap-radio" checked>WhatsApp</label>
                     </div>
                     <br>
-                    <label class="input-padrao-06"><input type="checkbox" checked>Eu gostaria de receber nossas novidades por e-mail</label>
+                    <label class="receber"><input type="checkbox" checked>Eu gostaria de receber nossas novidades por e-mail</label>
                     <input id="merda" class="enviar" type="submit" value="Enviar">
             </fieldset>
-
         </form>
     </main>
+    <footer></footer>
     </body>
 </html>

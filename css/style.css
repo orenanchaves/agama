@@ -105,4 +105,8 @@ p{
 .arrow-zap{
 		padding: 3px 0px;
 		margin: 10px 40px;
-	}	
+	}
+
+	@media screen and (max-width: 480px){
+     
+    }
